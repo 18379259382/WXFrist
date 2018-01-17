@@ -1,5 +1,20 @@
 {
   "pages": [
+    "page/index/index"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#01BBD2",
+    "navigationBarTitleText": "主页",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+
+"subPackages": [
+  {
+    "root": "page/profession/",
+    "pages": [
     "pages/home/home",
     "pages/seeQuotations/seeQuotations",
     "pages/clientDetails/clientDetails",
@@ -12,14 +27,10 @@
     "pages/query/query",
     "pages/need/index",
     "pages/client/client"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#01BBD2",
-    "navigationBarTitleText": "主页",
-    "navigationBarTextStyle": "white",
-    "enablePullDownRefresh": true
-  },
+    ]
+  }
+],
+
   "networkTimeout": {
     "request": 10000,
     "connectSocket": 10000,
@@ -27,4 +38,4 @@
     "downloadFile": 10000
   },
   "debug": true
-}
+}   

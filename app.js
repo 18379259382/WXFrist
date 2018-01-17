@@ -51,7 +51,7 @@ App({
       borderStyle: "#C2C2C4",
       list: [
         {
-          pagePath: "/pages/home/home",
+          pagePath: "../../pages/home/home",
           text: "首页",
           iconPath: "/images/icon_home.png",
           selectedIconPath: "/images/icon_unhome.png",
@@ -59,21 +59,21 @@ App({
         
         },
         {
-          pagePath: "/pages/client/client",
+          pagePath: "../../pages/client/client",
           text: "客户",
           iconPath: "/images/icon_intent_home.png",
           selectedIconPath: "/images/icon_intent_unhome.png",
           selected: false
         },
         {
-          pagePath: "/pages/need/index",
+          pagePath: "../../pages/need/index",
           text: "需求",
           iconPath: "/images/icon_user_need.png",
           selectedIconPath: "/images/icon_user_unneed.png",
           selected: false
         },
         {
-          pagePath: "/pages/intent/intent",
+          pagePath: "../../pages/intent/intent",
           text: "订单",
           iconPath: "/images/icon_intent.png",
           selectedIconPath: "/images/icon_unitnet.png",
